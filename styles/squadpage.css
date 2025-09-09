@@ -1,28 +1,32 @@
 body {
     margin: 0;
+    background-color: #ac988e;
 }
 
 
 
 
+
 nav {
-    background-color: rgb(157, 129, 104);
+    background-color: #876d56;
      display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 80px;
+    height: 68px;
 }
 
 h1{
    grid-column-start: 2;
    display: flex;
    justify-content: center;
+   color: #d4c5bd;
 }
 
 h2{
  grid-column-start: 3;
  display: flex;
  justify-content: end;
- margin-right: 50px;
+ margin-right: 70px;
+ color: #d4c5bd;
 }
 
 .klas {
