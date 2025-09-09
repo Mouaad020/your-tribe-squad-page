@@ -6,7 +6,7 @@ body {
 
 
 nav {
-    background-color: aqua;
+    background-color: rgb(157, 129, 104);
      display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 80px;
