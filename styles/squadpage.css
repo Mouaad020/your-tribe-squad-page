@@ -1,8 +1,15 @@
+body {
+    margin: 0;
+}
+
+
+
+
 nav {
     background-color: aqua;
      display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 50px;
+    height: 80px;
 }
 
 h1{
