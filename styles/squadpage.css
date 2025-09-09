@@ -1,0 +1,24 @@
+nav {
+    background-color: aqua;
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50px;
+}
+
+h1{
+   grid-column-start: 2;
+   display: flex;
+   justify-content: center;
+}
+
+h2{
+ grid-column-start: 3;
+ display: flex;
+ justify-content: end;
+ margin-right: 50px;
+}
+
+.klas {
+    display: flex;
+    justify-content: left;
+}
