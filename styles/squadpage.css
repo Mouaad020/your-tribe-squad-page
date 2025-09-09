@@ -33,3 +33,17 @@ h2{
     display: flex;
     justify-content: left;
 }
+
+.kaartje {
+  border: 4px solid rgb(3, 2, 2);
+  border-radius: 50px;
+  display: relative;
+  justify-content: center;
+  height: 600px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
