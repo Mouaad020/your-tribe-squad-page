@@ -8,7 +8,7 @@ body {
 
 
 nav {
-    background-color: #876d56;
+    background-color: #796656;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 68px;
@@ -42,17 +42,16 @@ h3 {
 }
 
 .kaartje {
-    border: 4px solid rgb(3, 2, 2);
+    border: 4px solid #796656;
     border-radius: 50px;
     display: relative;
     justify-content: center;
     height: 300px;
     margin-bottom: 80px;
-    
     width: 40%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #b9a181;
+    background-color: #ab9182;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 140px;
@@ -63,7 +62,16 @@ h3 {
     margin-top: -15px;
 }
 
-footer{
-    background-color: #876d56;
-     height: 295px;
+footer {
+    background-color: #796656;
+     height: 220px;
+     
+}
+
+
+
+.column {
+    float: left;
+    width: 350px;
+    padding:7px;
 }
