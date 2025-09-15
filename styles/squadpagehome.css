@@ -8,7 +8,7 @@ body {
 
 
 nav {
-    background-color: #796656;
+    background-color: #FAF3E0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 68px;
@@ -18,8 +18,9 @@ h1 {
     grid-column-start: 2;
     display: flex;
     justify-content: center;
-    color: #d4c5bd;
-    text-shadow: 2px 2px black;
+    color:  #523824; 
+     font-size: 30px;
+ 
 }
 
 .klasi {
@@ -27,16 +28,20 @@ h1 {
     display: flex;
     justify-content: end;
     margin-right: 70px;
-    color: #d4c5bd;
+    color: #523824;
+     font-size: 30px;
+
+    /* color: #d4c5bd; */
 }
 
 h3 {
     display: flex;
     justify-content: center;
     margin-top: 115px;
+    color: #523824;
     cursor: pointer;
     font-size: 30px;
-    text-shadow: 2px 2px rgb(226, 215, 215);
+    text-shadow: 2px 2px #8f6240;
 
 }
 
