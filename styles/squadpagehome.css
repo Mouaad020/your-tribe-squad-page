@@ -8,7 +8,7 @@ body {
 
 
 nav {
-    background-color: #FAF3E0;
+    background-color: #daccc2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: 68px;
@@ -41,7 +41,7 @@ h3 {
     color: #523824;
     cursor: pointer;
     font-size: 30px;
-    text-shadow: 2px 2px #8f6240;
+    text-shadow: 2px 2px #daccc2;
 
 }
 
@@ -72,7 +72,7 @@ h3 {
 }
 
 footer {
-    background-color: #796656;
+    background-color: #daccc2;
      height: 220px;
      
 }
@@ -80,7 +80,7 @@ footer {
 .column {
     float: left;
     width: 350px;
-    padding: 13px;
+    padding: 8px;
 }
 
 .pijl {
