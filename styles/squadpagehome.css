@@ -21,7 +21,7 @@ h1 {
     color: #d4c5bd;
 }
 
-h2 {
+.klasi {
     grid-column-start: 3;
     display: flex;
     justify-content: end;
