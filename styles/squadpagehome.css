@@ -19,6 +19,7 @@ h1 {
     display: flex;
     justify-content: center;
     color: #d4c5bd;
+    text-shadow: 2px 2px black;
 }
 
 .klasi {
@@ -32,8 +33,11 @@ h1 {
 h3 {
     display: flex;
     justify-content: center;
-    margin-top: 145px;
-    
+    margin-top: 115px;
+    cursor: pointer;
+    font-size: 30px;
+    text-shadow: 2px 2px rgb(226, 215, 215);
+
 }
 
 .klas {
@@ -71,5 +75,12 @@ footer {
 .column {
     float: left;
     width: 350px;
-    padding:7px;
+    padding: 13px;
+}
+
+.pijl {
+    position: absolute;
+    padding: 0px 300px;
+    margin-top: -25px
+    
 }
