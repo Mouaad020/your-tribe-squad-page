@@ -1,8 +1,8 @@
 body {
     margin: 0;
     background-color: #ac988e;
-}
 
+}
 
 nav {
     background-color: #796656;
@@ -15,15 +15,16 @@ h1 {
     grid-column-start: 2;
     display: flex;
     justify-content: center;
-    color: #d4c5bd;
+    color: #523824;
+    cursor: pointer;
 }
 
-h2 {
+.klasI {
     grid-column-start: 3;
     display: flex;
     justify-content: end;
     margin-right: 70px;
-    color: #d4c5bd;
+    color: #523824;
 }
 
 .logo {
@@ -32,18 +33,30 @@ h2 {
 }
 
 
-.mugshots{
-display: grid;
-grid-template-columns: repeat(6, 1fr);
-gap: 10px;
-margin-top: 10px;
+.mugshots {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-top: 10px;
 }
 
-.mugshot{
+.mugshot {
     width: 250px;
     height: auto;
 }
 
-.mugshot:hover{
+.mugshot:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 480px) {
+    .mugshots {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .mugshots {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
